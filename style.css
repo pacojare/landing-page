@@ -1,0 +1,37 @@
+*{
+  padding: 0px; 
+  margin: 0px; 
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    padding: 10px 40px;
+    color: white;
+    height: 80px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    min-height: 300px;
+    display: flex;
+}
