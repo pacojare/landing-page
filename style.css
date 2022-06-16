@@ -37,7 +37,7 @@
     flex-direction: column;
 }
 .hero{
-    min-height: 450px;
+    min-height: 500px;
     display: flex;
 }
 .titulo{
@@ -57,7 +57,7 @@
 }
 .boton{
    background-color: #3882f6;
-   border-radius: 20%;
+   border-radius: 10%;
    color: white;
    font-size: 18px;
    border: none;
@@ -65,4 +65,34 @@
 }
 img{    
     width: 100%;    
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px ;
+
+}
+.info-random{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    
+    margin-bottom: 50px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.image{
+    height: 180px;
+    width: 180px;
+    border: #3882f6 2px solid;
+    border-radius: 10%;
+
+}
+.info-img{
+    text-align: center;
+    width: 180px;
 }
